@@ -1,0 +1,245 @@
+/**********************************************************************************************************************************************************
+ * IMPORTED STYLES																																																																        *
+ *********************************************************************************************************************************************************/
+
+/**********************************************************************************************************************************************************
+ * FONT KITS																																																														                  *
+ *********************************************************************************************************************************************************/
+@import url('fonts/cantarell/stylesheet.css');
+/**********************************************************************************************************************************************************
+ * DEFAULTS/NORMALIZATIONS																																																																*
+ *********************************************************************************************************************************************************/
+* {
+    margin: 0;
+    padding:0;
+    color:#a98;
+}
+
+body {
+    background: url('../images/extra_clean_paper.png') repeat;
+    /*background-color: #224A60;*/
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+li {
+    list-style-type: none;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 33%;
+    height: 28px;
+    display: inline-block;
+    border:3px dashed #a98;
+    border-radius: 6px;
+    color: #666;
+    background: url('../images/lined_paper.png') repeat 0 8px;
+    outline: none;
+    margin:2px 0 8px 0;
+    padding: 0 3px;
+    box-shadow: 2px 2px 4px 0 #000;
+    font-weight: bolder;
+}
+
+textarea {
+    padding: 7px 3px;
+    height: 130px;
+    line-height: 1.4em;
+}
+
+input[type="button"],
+input[type="submit"] {
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background: #417297;
+    border: 2px double #a98;
+    border-radius: 10px;
+    padding: 3px 6px;
+    cursor: pointer;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover {
+    border-color: #666;
+}
+
+label {
+    
+}
+
+div.clearfix-30 {
+    clear:both;
+    height: 30px;
+}
+/**********************************************************************************************************************************************************
+ * HEADER/NAVIGATION        																																																															*
+ *********************************************************************************************************************************************************/
+header#site-header {
+    width:100%;
+    position: fixed;
+    height:6%;
+    background-color: rgba(0,0,0, .80);
+    opacity: .75;
+    border-bottom: 1px solid #666;
+    z-index: 10001;
+}
+
+header#site-header h1 {
+    display: inline-block;
+}
+
+header#site-header nav {
+    float:right;
+    margin: 10px 10px;
+}
+
+header#site-header nav a {
+    display: inline-block;
+    font-family: cantarellboldoblique;
+}
+
+/**********************************************************************************************************************************************************
+ * CONTENT       																																																															            *
+ *********************************************************************************************************************************************************/
+section#main-content {
+    width:100%;
+    margin: 0 auto 0 auto;
+    padding: 25px 5px;
+}
+
+/*
+ *---------------------------
+ * General Section Styles
+ *---------------------------
+ */
+
+@media screen and (max-height: 1440px) {
+
+    section.epic-section {
+        height: 635px;
+    }
+}
+
+section.epic-section {
+    /*background: url('images/fabric_plaid.png') repeat;*/
+    width: 90%;
+    margin: 6% auto 15px auto;
+    /*box-shadow: 4px 4px 12px 0 #000;*/
+    /*border-bottom-left-radius: 4px;*/
+    /*border-bottom-right-radius: 4px;*/
+    clear: both;
+    font-family: cantarellRegular;
+    overflow: hidden;
+}
+
+section.epic-section header {
+    width: 98%;
+    margin: 0 auto 10px auto;
+    padding:4px 4px;
+    clear: both;
+    color:white;
+    background: url('../images/top-bg.png') repeat-x;
+    border-bottom: 2px ridge #333;
+    box-shadow: 2px 4px 12px 0 #000;
+}
+
+section.epic-section header h2 {
+    color:white;
+}
+
+section.epic-section article {
+    float: right;
+    width:22%;
+    padding:5px;
+    font-size: 12px;
+}
+
+section.epic-section form {
+    float: left;
+    width:75%;
+    height: 87%;
+    padding:10px;
+    overflow: auto;
+}
+
+section.epic-section form>ul>li {
+    display: block;
+    height: 80%;
+}
+
+section.epic-section form ul.demo-elements li:last-child ul.demo-wrapper {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+section.epic-section ul.demo-wrapper {
+    border-bottom: 2px ridge #a98;
+    margin-bottom: 10px;
+}
+
+
+section.epic-section ul.demo-wrapper li.options-header {
+    float: right;
+    font-size: 13px;
+    margin-top:10px;
+    height:14px;
+}
+
+section.epic-section ul.demo-wrapper li>label {
+    font-size: 17px;
+}
+
+section.epic-section div.option-tabs li>label {
+    font-size: 11px;
+}
+/*
+ *-------------------------------
+ * Option lists - general styles
+ *-------------------------------
+ */
+section.epic-section div.option-tabs {
+    font-size: 11px;
+    width:61.5%;
+    height: auto;
+    overflow: auto;
+    position: relative;
+    top: -43px;
+    left:38%;
+    margin-bottom: -25px;
+}
+
+section.epic-section div.option-tabs.textarea {
+    top:-163px;
+}
+
+section.epic-section div.option-tabs.button {
+    top:-25px;
+    margin-bottom: 0;
+}
+
+section.epic-section ul.options {
+    font-size: 11px;
+}
+
+section.epic-section ul.options li {
+    display: inline-block;
+    padding:  0 5px 0 0;
+}
+
+/*
+ *---------------------------
+ * Section Text Inputs
+ *---------------------------
+ */
+
+/**********************************************************************************************************************************************************
+ *      																																																															            *
+ *********************************************************************************************************************************************************/
+
+/**********************************************************************************************************************************************************
+ *     																																																															            *
+ *********************************************************************************************************************************************************/
