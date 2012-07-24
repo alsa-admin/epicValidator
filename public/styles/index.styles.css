@@ -10,16 +10,128 @@
  * DEFAULTS/NORMALIZATIONS																																																																*
  *********************************************************************************************************************************************************/
 
+.slide {
+    width: 1140px;
+    height:100%;
+    margin: 3% auto 0 auto;
+    text-align: center;
+}
+
+.slide .slide-badge {
+    position: absolute;
+    top:15%;
+    left:0;
+}
+
+.slide .slide-button {
+    margin: 0 1%;
+}
+
+.slide footer {
+    width:100%;
+    padding: 0;
+    margin:0;
+    position: absolute;
+    bottom: 10%;
+}
+
+.slide footer img {
+    text-align: center;
+    margin: 0 auto 0 auto;
+}
+
+.selection {
+    width:80%;
+    position: relative;
+    top:10%;
+    left:30%;
+    text-align: left;
+}
+
+.selection h1 {
+    color: white;
+    font-family: franchiseregular;
+    font-size: 4em;
+    font-weight: lighter;
+}
+
+.slide .preamble {
+    position: absolute;
+    top:22%;
+    left:20%;
+}
+
+.slide .preamble p {
+    font-size: 1.2em;
+    font-family: markerfeltnormal;
+    color:#666;
+}
+
+.slide-checkbox {
+    cursor: pointer;
+    position: relative;
+    top:7px;
+    left:0;
+}
+
+.help-img {
+    width:16px;
+    height:16px;
+    cursor: pointer;
+}
+
+.selection .selection-list {
+    margin:6% 0;
+}
+
+.selection .selection-list li ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+.selection .selection-list input {
+    display: none;
+}
+
+.selection .selection-list .help-img {
+    position: relative;
+    top:-43px;
+    left:0;
+}
+
+.selection .selection-list li ul li:first-child {
+    min-width: 80%;
+    width: 80%;
+}
+
+.selection .selection-list li ul li:nth-child(2) {
+    text-align: right;
+}
+
+.selection .selection-list li ul li h1 {
+    display: inline-block;
+    width: 72%;
+}
+
 /**********************************************************************************************************************************************************
  * HEADER/NAVIGATION        																																																															*
  *********************************************************************************************************************************************************/
 
 /**********************************************************************************************************************************************************
- * CONTENT       																																																															            *
+ * #intro-wrapper    																																																															            *
  *********************************************************************************************************************************************************/
 #intro-wrapper {
-    margin: 15% auto 0 auto;
+    margin: 12% auto 0 auto;
     text-align: center;
+    width:100%;
+    position: absolute;
+    top:0;
+    left:0;
+}
+#intro-wrapper div {
+    width: 1140px;
+    text-align: center;
+    margin: 9% auto 0 auto;
 }
 
 #intro-wrapper hgroup  {
@@ -28,14 +140,204 @@
 
 #intro-wrapper hgroup h1 {
     margin: 1% 0;
-    font-size: 3em;
+    font-size: 3.3em;
     color:white;
     font-family: franchiseregular;
+    font-weight: lighter;
+
 }
-/**********************************************************************************************************************************************************
- * FOOTER      																																																															            *
- *********************************************************************************************************************************************************/
 
 /**********************************************************************************************************************************************************
- *     																																																															            *
+ * #overview     																																																															            *
  *********************************************************************************************************************************************************/
+#overview {
+    position: absolute;
+    top:0;
+    left:100%;
+    margin-right: 200px;
+}
+
+#overview #intro-form {
+    width:26%;
+    position: relative;
+    top:10%;
+    left:14%;
+    text-align: left;
+    font-family: cantarellregular;
+}
+
+#overview #intro-form input{
+    display: block;
+    text-align: left;
+    width: 100%;
+}
+
+#overview #intro-form input[type="button"] {
+    display: block;
+    text-align: center;
+    width: 20%;
+    margin: 10% auto 0 auto;
+}
+#overview #intro-form label {
+    color:white;
+}
+
+#try-me-img {
+    position: relative;
+    top:100px;
+    left:-430px;
+}
+
+#features {
+    position: absolute;
+    top:22%;
+    left:55%;
+    width: 40%;
+}
+
+#feature-list {
+    background-image: url('/images/landing/feature-bg.png');
+    background-repeat: repeat;
+    border:3px dashed #a98;
+    border-radius: 6px;
+    box-shadow: 2px 2px 12px 0 #000;
+    color:#363636;
+    font-family: markerfeltnormal;
+    padding:10px;
+    text-align: left;
+}
+
+#feature-list p {
+    color:#363636;
+    font-family: markerfeltnormal;
+    font-size:1.3em;
+    margin:7% 0;
+
+}
+
+#more-features {
+    background-image: url('/images/landing/badge.png');
+    background-repeat: no-repeat;
+    width:204px;
+    height:204px;
+    z-index: 10001;
+    position: absolute;
+    top:-30%;
+    left:80%;
+    text-align: center;
+}
+
+#more-features p:first-child {
+    margin-top: 22%;
+}
+#more-features p {
+    width: 100px;
+    margin: 5% auto 0 auto;
+    font-family: markerfeltnormal;
+    color:#363636;
+    font-size: .8em;
+}
+/**********************************************************************************************************************************************************
+ *  #slide-1																																																													            *
+ *********************************************************************************************************************************************************/
+#slide-1 {
+    position: absolute;
+    top:0;
+    left: 200%;
+}
+
+#slide-1 .selection  {
+    top:20%;
+}
+
+#slide-1 .selection ul {
+    position: absolute;
+    top:66%;
+    left:38%;
+    text-align: left;
+    margin:0;
+    padding:0;
+}
+
+#slide-1 .selection ul li {
+    display: inline;
+}
+
+#slide-1 .selection ul li .help-img {
+    position: relative;
+    top:4px;
+    left:4px;
+}
+
+/**********************************************************************************************************************************************************
+ *  #slide-2																																																													            *
+ *********************************************************************************************************************************************************/
+#slide-2 {
+    position: absolute;
+    top:0;
+    left: 300%;
+}
+
+/**********************************************************************************************************************************************************
+ *  #slide-3																																																												            *
+ *********************************************************************************************************************************************************/
+#slide-3 {
+    position: absolute;
+    top:0;
+    left: 400%;
+}
+
+/**********************************************************************************************************************************************************
+ *  #slide-4																																																												            *
+ *********************************************************************************************************************************************************/
+#slide-4 {
+    position: absolute;
+    top:0;
+    left: 500%;
+}
+
+/**********************************************************************************************************************************************************
+ *  #slide-5																																																												            *
+ *********************************************************************************************************************************************************/
+#slide-5 {
+    position: absolute;
+    top:0;
+    left: 600%;
+}
+
+/**********************************************************************************************************************************************************
+ *  #slide-6																																																												            *
+ *********************************************************************************************************************************************************/
+#slide-6 {
+    position: absolute;
+    top:0;
+    left: 700%;
+}
+
+/**********************************************************************************************************************************************************
+ *  #slide-7																																																												            *
+ *********************************************************************************************************************************************************/
+#slide-7 {
+    position: absolute;
+    top:0;
+    left: 800%;
+}
+
+#slide-7 .selection {
+    text-align: center;
+    top:18%;
+    left:12%;
+}
+
+#slide-7 .selection p {
+    font-family: markerfeltnormal;
+    color:#666;
+    width:66%;
+    margin: 2% auto 5% auto;
+    font-size: 1.4em;
+    font-weight: lighter;
+}
+
+#slide-7 .selection footer {
+    position: inherit;
+}

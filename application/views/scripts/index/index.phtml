@@ -1,12 +1,347 @@
+<!-- Landing page -->
 <section id="intro-wrapper">
-	<header>
-		<img src="images/logo-768x125.png" alt="epic validator-logo">
-	</header>
-	<hgroup>
-		<h1>LIKE, SERISOUSLY, THE MOST EPIC FORM</h1>
-		<h1>FORM VALIDATION EVER. EVER.</h1>
-	</hgroup>
-	<footer>
-		<p>Coming soon! You can check out the <a href="http://beta.epic-validator.com">beta site</a> in the meantime!</p>
-	</footer>
+	<div>
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<hgroup>
+			<h1>Like, seriously, the most epic</h1>
+			<h1>form validation ever. Ever.</h1>
+		</hgroup>
+		<footer>
+			<img src="images/landing/learn-more.png" alt="learn-more!" class="img-button slide-button-next">
+		</footer>
+	</div>
 </section>
+
+<!-- Overview Slide -->
+	<section id="overview" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<section id="intro-form">
+			<form>
+				<label for="name">Name:</label>
+				<input type="text" id="name">
+				<label for="email">Email:</label>
+				<input type="email" id="email">
+				<label for="password">Password:</label>
+				<input type="password" id="password">
+				<label for="confirm-password">Confirm Password</label>
+				<input type="password" id="confirm-password">
+				<input type="button" value="try me!">
+			</form>
+		</section>
+		<img src="images/landing/try-it.png" alt="Try me!" id="try-me-img">
+		<section id="features">
+			<article id="feature-list">
+				<p>epicValidator lets you build advanced validation for your web forms.</p>
+				<p>Add custom behaviors for any type of event.</p>
+				<p>Run additional validation when submitting your form.</p>
+				<p>Ensures form values are safe and filtered.</p>
+				<p>Compare multiple entries with ease.</p>
+				<p>Complete control over what type of elements you chose to include.</p>
+				<p>Easy to use wizard helps you build your plugin!</p>
+			</article>
+			<article id="more-features">
+				<p>We are completely free and open source! Find us on <a href="">Github! </a></p>
+				<p>Also check out our <a href="">Project page </a>to check out updates and vote for new features!</p>
+			</article>
+		</section>
+		<footer>
+			<img src="images/landing/btn-build-your-validator.png" alt="learn-more!" class="img-button slide-button-next">
+		</footer>
+	</section>
+
+<!-- Slide 1 -->
+
+	<section id="slide-1" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-1" class="slide-badge" src="/images/slide-1/1.png" alt="Step One!">
+		<section class="selection">
+			<h1>How many text-only fields</h1>
+			<h1>will you need?</h1>
+			<ul>
+				<li><input type="number" min="0" name="number-of-text-fields"></li>
+				<li><img id="help-img" class="help-img" src="/images/help.png" alt="help-meh!"></li>
+			</ul>
+		</section>
+		<footer>
+			<img src="images/keep-building.png" alt="learn-more!" class="img-button slide-button slide-button-next">
+		</footer>
+	</section>
+
+
+<!-- Slide-2 -->
+	<section id="slide-2" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-2" class="slide-badge" src="/images/slide-2/2.png" alt="Step One!">
+		<header class="preamble">
+			<p>will your form need a(n):</p>
+		</header>
+		<section class="selection">
+			<ul id="email-checkbox-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Email field?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox email">
+							<input type="checkbox" name="email-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><h1>Confirm Email?</h1></li>
+						<li><img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="email-confirm-cbx"></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="password-checkbox-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Password field?</h1></li>
+						<li><img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="password-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!"></li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><h1>Confirm Password?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="password-cbx">
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<img src="images/back-a-step.png" alt="learn-more!" class="img-button slide-button slide-button-prev">
+			<img src="images/keep-building.png" alt="learn-more!" class="img-button slide-button slide-button-next">
+		</footer>
+	</section>
+
+
+<!-- Telephone and Datalist Slide -->
+	<section id="slide-3" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-3" class="slide-badge" src="/images/slide-3/3.png" alt="Step One!">
+		<header class="preamble">
+			<p>will your form need a(n):</p>
+		</header>
+		<section class="selection">
+			<ul id="telephone-checkbox-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Telephone field?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="telephone-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="datalist-checkbox-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Datalist?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="datalist-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<img src="images/back-a-step.png" alt="back a step!" class="img-button slide-button slide-button-prev">
+			<img src="images/keep-building.png" alt="keep building!!" class="img-button slide-button slide-button-next">
+		</footer>
+	</section>
+
+<!-- Checkbox, radio buttons and dropdown slide -->
+	<section id="slide-4" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-4" class="slide-badge" src="/images/slide-4/4.png" alt="Step One!">
+		<header class="preamble">
+			<p>will your form need some:</p>
+		</header>
+		<section class="selection">
+			<ul id="checkbox-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Checkboxes?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="telephone-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="radio-buttons-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Radio Buttons?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="datalist-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="drop-down-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Dropdowns?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox">
+							<input type="checkbox" name="datalist-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<img src="images/back-a-step.png" alt="back a step!" class="img-button slide-button slide-button-prev">
+			<img src="images/keep-building.png" alt="keep building!!" class="img-button slide-button slide-button-next">
+		</footer>
+	</section>
+
+
+<!-- numbers, range slider and datepicker slide -->
+	<section id="slide-5" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-5" class="slide-badge" src="/images/slide-5/5.png" alt="Step One!">
+		<header class="preamble">
+			<p>will your form need some:</p>
+		</header>
+		<section class="selection">
+			<ul id="number-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Number Fields?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox unchecked">
+							<input type="checkbox" name="telephone-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="range-slider-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Range Sliders?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox unchecked">
+							<input type="checkbox" name="datalist-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="date-picker-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Datepickers?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox unchecked>
+							<input type="checkbox" name="datalist-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<img src="images/back-a-step.png" alt="back a step!" class="img-button slide-button slide-button-prev">
+			<img src="images/keep-building.png" alt="keep building!!" class="img-button slide-button slide-button-next">
+		</footer>
+	</section>
+
+<!-- standard and submit buttons slide -->
+	<section id="slide-6" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-6" class="slide-badge" src="/images/slide-6/6.png" alt="Step One!">
+		<header class="preamble">
+			<p>will your form need some:</p>
+		</header>
+		<section class="selection">
+			<ul id="standard-buttons-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Standard Buttons?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox unchecked">
+							<input type="checkbox" name="telephone-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul id="submit-buttons-list" class="selection-list">
+				<li>
+					<ul>
+						<li><h1>Submit Buttons?</h1></li>
+						<li>
+							<img src="/images/checkbox-unchecked.png" alt="checkbox" class="slide-checkbox unchecked">
+							<input type="checkbox" name="datalist-cbx">
+							<img class="help-img" src="/images/help.png" alt="help-meh!">
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</section>
+		<footer>
+			<img src="images/back-a-step.png" alt="back a step!" class="img-button slide-button slide-button-prev">
+			<img src="images/keep-building.png" alt="keep building!!" class="img-button slide-button slide-button-next">
+		</footer>
+	</section>
+
+<!-- standard and submit buttons slide -->
+
+	<section id="slide-7" class="slide">
+		<header>
+			<img src="images/logo-768x125.png" alt="epic validator-logo">
+		</header>
+		<img id="badge-7" class="slide-badge" src="/images/all-done.png" alt="All Done!!">
+		<section class="selection">
+			<h1>Did we miss anything?</h1>
+			<p>
+				Those are all the form elemnts we currently support!
+				If there were some element types that you needed but didn’t see here
+				<a href="">let us know!</a>
+			</p>
+			<footer>
+				<img src="/images/validate-your-form.png" alt="validate your form!">
+			</footer>
+		</section>
+	</section>

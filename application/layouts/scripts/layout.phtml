@@ -1,8 +1,27 @@
-<?php
-/**
- * Created by JetBrains PhpStorm.
- * User: kstowell
- * Date: 7/16/12
- * Time: 7:09 PM
- * To change this template use File | Settings | File Templates.
- */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>epicValidator jQuery Plugin</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge, chrome=1">
+	<meta name="description" content="epicValidator jQuery Plugin. Perform advanced form validation through an easy to use interface.">
+	<?php echo $this->headLink(); ?>
+	<?php echo $this->headScript(); ?>
+</head>
+	<body>
+		<header id="site-header">
+			<h1>epicValidator.js</h1>
+			<nav>
+				<a>About</a>
+				<a>Basic Usage</a>
+				<a href="/docs">Documentation</a>
+				<a href="/build-your-validator">Build Your Plugin</a>
+				<a>Feedback</a>
+			</nav>
+		</header>
+		<section id="main-content">
+			<?php echo $this->layout()->content; ?>
+		</section>
+		<div id="crosshairs"></div>
+	</body>
+</html> 

@@ -53,6 +53,28 @@
 			 */
 			$(document).ready(function () {
 				$('div.option-tabs').tabs();
+
+				$(window).click(function(e) {
+					console.log(e.target);
+				});
+
+				//crosshairs init
+				$('#crosshairs').Crosshairs({
+					width: '20px',
+					height: '20px',
+					show_in_url: true,
+					alignment: 'center',
+					offset: 0,
+					pathing: 'fixed',
+					speed: 800,
+					mode: {
+						traversal: 'slide-deck',
+						distance: '95%',
+						forward: $('.slide-button-next'),
+						reverse: $('.slide-button-prev')
+					},
+					wrapper: $('#main-content')
+				});
 			});
 
 			/**
